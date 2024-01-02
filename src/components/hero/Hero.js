@@ -19,6 +19,7 @@ const Hero = ({foods}) =>{
                                             </div>
                                             <div className="food-name">
                                                 <h4>{food.name}</h4>
+                                                <p>{food.price}</p>
                                             </div>
                                         </div>
                                     </div>

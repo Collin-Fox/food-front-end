@@ -1,0 +1,34 @@
+.food-carousel{
+    width: 100vw;
+    background-color: black;
+}
+.food-image{
+    height: 300px;
+
+}
+.food-image > img{
+    height: 100%;
+    width: 100%;
+}
+.food-card-container{
+    height: 550px;
+    background-color: black;
+}
+.food-card{
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+    background-size: cover;
+}
+.food-detail{
+    position: absolute;
+    top:200px;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+.food-name{
+    color:white;
+    display: flex;
+    align-items: center;
+}

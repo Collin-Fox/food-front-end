@@ -10,4 +10,9 @@ body{
 }
 .App{
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
 }
