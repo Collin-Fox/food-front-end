@@ -1,16 +1,42 @@
-*{
-    font-family: "Rockwell";
-    color:black;
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    justify-content: center;
+    align-content: center;
 
 }
 .about{
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
+
+    justify-content: center;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+.image-container-one{
+
+    grid-row-start: 1;
+    grid-row-end:5;
+    grid-column-start: 8;
+    grid-column-end: 16;
 
 }
-.about > img{
-    height: 50%;
-    width: 50%;
+.rest-img{
+    height: 400px;
+    width: 700px;
 }
+.information{
 
+    grid-row-start: 6;
+    grid-row-end:9;
+    grid-column-start: 9;
+    grid-column-end: 16;
+}
+.image-container-two{
+
+    grid-row-start: 5;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}

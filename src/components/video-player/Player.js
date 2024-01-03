@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "./Player.css"
-import vid from "./rest.mp4"
+import vid from "./diner.mp4"
 const Player = ()=>{
 
     return(
@@ -11,9 +11,11 @@ const Player = ()=>{
 
                 width="100%"
                 height="100%"
-                autoplay
+                autoPlay
                 muted
-                controls
+                loop
+                disablePictureInPicture="true"
+
 
             src={vid}>
 
