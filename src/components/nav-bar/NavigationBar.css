@@ -1,0 +1,13 @@
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.button-container > h5{
+    font-family: "Rockwell";
+    padding: 10px;
+    color: black;
+
+}

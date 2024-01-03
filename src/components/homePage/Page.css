@@ -1,0 +1,16 @@
+*{
+    font-family: "Rockwell";
+    color:black;
+
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+}
+.about > img{
+    height: 50%;
+    width: 50%;
+}
+

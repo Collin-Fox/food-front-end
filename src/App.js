@@ -5,6 +5,7 @@ import {useState, useEffect} from "react";
 import Layout from "./components/Layout";
 import {Routes, Route} from 'react-router-dom'
 import Home from './components/home/Home'
+import NavigationBar from "./components/nav-bar/NavigationBar";
 function App() {
 
   const [foods, setFoods] = useState();
@@ -13,7 +14,7 @@ function App() {
 
     try {
       const response = await api.get("/api/v1/food");
-      console.log(response.data);
+
       setFoods(response.data);
     }
     catch (err){
@@ -31,9 +32,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route path="/" element={<Home foods={foods}/>}>
-
-          </Route>
+          <Route path="/" element={<Home foods={foods}/>}/>
         </Route>
       </Routes>
 
