@@ -22,6 +22,7 @@ const NavigationBar = () =>{
             <h5>
                 <Link to="/Catering">Catering</Link>
             </h5>
+
             <h5>
                 <Link to="/Parties">Parties</Link>
             </h5>

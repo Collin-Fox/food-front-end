@@ -13,6 +13,10 @@
     padding: 10px;
     color: black;
 }
+.logo{
+    height: 50px;
+    width: 50px;
+}
 .button-container > h5 > a {
     float: left;
     display: block;

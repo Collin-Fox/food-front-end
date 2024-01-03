@@ -1,11 +1,14 @@
 import React from "react";
+import NavigationBar from "../nav-bar/NavigationBar";
+import FoodList from "../food-list/FoodList";
+import BottomBar from "../bottom-bar/BottomBar";
 
-const Menu = () => {
+const Menu = ({foods}) => {
     return(
         <div>
-            <h1>
-                Hello World
-            </h1>
+            <NavigationBar/>
+            <FoodList foods={foods}/>
+            <BottomBar/>
         </div>
     )
 }
