@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import {Routes, Route} from 'react-router-dom'
 import Home from './components/home/Home'
 import NavigationBar from "./components/nav-bar/NavigationBar";
+import Menu from "./components/menu/Menu";
 function App() {
 
   const [foods, setFoods] = useState();
@@ -33,6 +34,16 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route path="/" element={<Home foods={foods}/>}/>
+          <Route path="/Menu" element={<Menu/>}/>
+          <Route path="/Drinks"/>
+          <Route path="/Specials"/>
+          <Route path="/Events"/>
+          <Route path="/Catering"/>
+          <Route path="/Parties"/>
+          <Route path="/Order"/>
+          <Route path="/Reservations"/>
+          <Route path="/Gift_Cards"/>
+          <Route path="/Jobs"/>
         </Route>
       </Routes>
 

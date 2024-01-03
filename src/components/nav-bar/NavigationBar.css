@@ -6,10 +6,17 @@
     flex-direction: row;
     background-color: white;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 .button-container > h5{
     font-family: "Rockwell";
     padding: 10px;
     color: black;
-
+}
+.button-container > h5 > a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
 }
