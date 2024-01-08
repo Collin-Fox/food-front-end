@@ -7,7 +7,9 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './components/home/Home'
 import NavigationBar from "./components/nav-bar/NavigationBar";
 import Menu from "./components/menu/Menu";
+import Drinks from "./components/drinks/Drinks"
 import Reservation from "./components/reservations/Reservation";
+import Order from "./components/order/Order";
 function App() {
 
   const [foods, setFoods] = useState();
@@ -36,15 +38,10 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route path="/" element={<Home foods={foods}/>}/>
           <Route path="/Menu" element={<Menu foods={foods}/>}/>
-          <Route path="/Drinks"/>
-          <Route path="/Specials"/>
-          <Route path="/Events"/>
-          <Route path="/Catering"/>
-          <Route path="/Parties"/>
-          <Route path="/Order"/>
+          <Route path="/Drinks" element={<Drinks/>}/>
+          <Route path="/Order" element={<Order foods={foods}/>}/>
           <Route path="/Reservations" element={<Reservation/>}/>
-          <Route path="/Gift_Cards"/>
-          <Route path="/Jobs"/>
+
         </Route>
       </Routes>
 

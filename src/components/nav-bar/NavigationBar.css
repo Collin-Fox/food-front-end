@@ -12,6 +12,7 @@
     font-family: "Rockwell";
     padding: 10px;
     color: black;
+
 }
 .logo{
     height: 50px;
@@ -21,6 +22,8 @@
     float: left;
     display: block;
     color: black;
+
+
     text-align: center;
     text-decoration: none;
 }
