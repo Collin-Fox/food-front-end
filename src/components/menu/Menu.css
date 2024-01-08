@@ -1,0 +1,6 @@
+.center-page{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+
+}

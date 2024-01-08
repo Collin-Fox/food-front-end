@@ -1,18 +1,16 @@
 .list-container{
-    padding-top: 25px;
-    padding-left: 25px;
-    display: flex;
-    flex-direction:  column;
-    background-color: aqua;
 
-}
-.food-preview{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-content: center;
+    padding: 50px;
 }
+.food-preview{
+
+    padding: 20px;
+
+
+}
+
 .food-image-container{
-    background-color: aquamarine;
 
 }
