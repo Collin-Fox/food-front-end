@@ -8,11 +8,11 @@ const FoodCard = ({food}) => {
                 <img  src = {food.img} alt = ""></img>
             </div>
             <div className="txt-container">
-                <h3>
+                <h4>
                     {food.name}
-                </h3>
+                </h4>
                 <h6>
-                    {food.price}
+                    {"$" + food.price}
                 </h6>
             </div>
 

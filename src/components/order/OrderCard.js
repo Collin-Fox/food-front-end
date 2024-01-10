@@ -19,7 +19,8 @@ const OrderCard = ({food}) => {
                 </h6>
             </div>
 
-            <img src={food.img}/>
+            <img src={food.img}>
+            </img>
         </div>
 
     )

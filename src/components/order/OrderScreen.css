@@ -1,12 +1,15 @@
 .order-screen-container{
-    width: 1800px;
+    width: 100%;
     align-content: center;
     justify-content: center;
-
     display: inline-block;
 }
 
 .food-preview{
     display: inline-block;
-
+    width: 25%;
 }
+.test-container{
+    background-color: red;
+}
+

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import api from './api/axiosConfig';
+import api from './components/api/axiosConfig';
 import {useState, useEffect} from "react";
 import Layout from "./components/Layout";
 import {Routes, Route} from 'react-router-dom'

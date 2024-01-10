@@ -6,18 +6,12 @@ const BottomBar = () =>{
         <div className="bottom-container">
 
 
-            <h3>
+            <h2>
                 Follow Us on Social Media!
-            </h3>
-            <h1>
                 <AiFillInstagram fill="white"/>
-            </h1>
-            <h1>
                 <AiFillTwitterSquare fill="white"/>
-            </h1>
-            <h1>
                 <AiFillFacebook fill="white"/>
-            </h1>
+            </h2>
 
 
         </div>
